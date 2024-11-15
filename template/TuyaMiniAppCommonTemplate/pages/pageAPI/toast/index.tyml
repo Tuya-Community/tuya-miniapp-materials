@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">toast</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="btn-area">
+      <view class="body-view">
+        <button type="default" bindtap="toast1Tap">default toast</button>
+      </view>
+      <view class="body-view">
+        <button type="default" bindtap="toast2Tap">duration: 3000</button>
+      </view>
+      <view class="body-view">
+        <button type="default" bindtap="toast3Tap">toast + loading</button>
+      </view>
+      <view class="body-view">
+        <button type="default" bindtap="hideToast">hide toast</button>
+      </view>
+    </view>
+  </view>
+</view>

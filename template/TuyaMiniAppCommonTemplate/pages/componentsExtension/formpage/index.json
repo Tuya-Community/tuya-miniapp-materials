@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "formpage",
+  "backgroundColor": "#f2f4f6",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "mpformpage": "@tuya-miniapp/miniapp-components-plus/formpage/index"
+  }
+}

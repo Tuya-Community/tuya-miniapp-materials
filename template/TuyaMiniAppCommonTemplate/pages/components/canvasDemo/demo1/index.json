@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "canvas动画演示",
+  "backgroundColor": "#f2f4f6",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": false
+}

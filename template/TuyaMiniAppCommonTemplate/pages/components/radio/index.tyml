@@ -1,0 +1,40 @@
+<view class="page-head">
+  <view class="page-head-title">radio</view>
+  <view class="page-head-line"></view>
+</view>
+<view class="l-r-padding mb-20">{{i18n.t('radio_default')}}</view>
+<block>
+  <view class="check-wrp">
+    <radio checked="true"></radio>
+    <text class="check-text text-left">{{i18n.t('radio_checked')}}</text>
+  </view>
+  <view class="check-wrp">
+    <radio></radio>
+    <text class="check-text">{{i18n.t('radio_unchecked')}}</text>
+  </view>
+  <view class="check-wrp">
+    <radio checked="true" disabled="true"></radio>
+    <text class="check-text">{{i18n.t('radio_checked')}} + disabled</text>
+  </view>
+  <view class="check-wrp">
+    <radio disabled="true"></radio>
+    <text class="check-text">{{i18n.t('radio_unchecked')}} + disabled</text>
+  </view>
+</block>
+<view class="mt-40">
+  <view class="l-r-padding mb-20">{{i18n.t('radio_recommend')}}</view>
+  <view class="page__bd">
+    <view class="section section_gap">
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" ty:for="{{items}}" ty:key="name">
+          <radio
+            value="{{item.name}}"
+            checked="{{item.checked}}"
+            disabled="{{item.disabled}}"
+          ></radio>
+          <text class="text">{{item.value}}</text>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</view>

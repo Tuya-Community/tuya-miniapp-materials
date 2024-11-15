@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">navigateTo/Back, redirectTo</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="btn-area">
+      <button type="primary" bindtap="navigateTo">navigateTo</button>
+      <button type="primary" bindtap="navigateBack">navigateBack</button>
+      <button type="primary" bindtap="redirectTo">redirectTo</button>
+      <button type="primary" bindtap="switchTab">switchTab</button>
+      <button type="primary" bindtap="reLaunch">reLaunch</button>
+    </view>
+  </view>
+</view>

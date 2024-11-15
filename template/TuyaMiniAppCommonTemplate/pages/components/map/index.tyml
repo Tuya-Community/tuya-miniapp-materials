@@ -1,0 +1,40 @@
+<view class="container">
+  <map
+    id="myMap"
+    class="myMap"
+    style="border:10px solid red;padding: {{tagTop}}px;marginTop: {{marginTop}}px;"
+    latitude="{{latitude}}"
+    longitude="{{longitude}}"
+    scale="{{scale}}"
+    markers="{{markers}}"
+    bindtap="handleTap"
+    bindmarkertap="handleMarkertap"
+    bindcallouttap="handleCallouttap"
+    border-width="{{2}}"
+    border-style="solid"
+    border-color="#007aff"
+    background-color="#ffc300"
+    border-radius="{{10}}"
+    data-map="{{value}}"
+    bindregionchange="handleRegionchange"
+  >
+    <view class="tag1" bindtap="clickTag">label</view>
+  </map>
+  <view class="btn-box">
+    <button class="btn" bindtap="changeLngLat" type="primary">{{i18n.t('map_la_lo')}}</button>
+    <button class="btn" bindtap="apiMoveToLocation" type="primary">moveToLocation</button>
+    <button class="btn" bindtap="apiAddMarkers" type="primary">addMarkers</button>
+    <button class="btn" bindtap="apiRemoveMarkers" type="primary">removeMarkers</button>
+    <button class="btn" bindtap="scaleIn" type="primary">{{i18n.t('map_enlarge')}}</button>
+    <button class="btn" bindtap="scaleOut" type="primary">{{i18n.t('map_small')}}</button>
+    <button class="btn" bindtap="openConfirm" type="primary">{{i18n.t('map_dialog')}}</button>
+    <mpdialog
+      title="标题"
+      show="{{dialogShow}}"
+      bindbuttontap="tapDialogButton"
+      buttons="{{buttons}}"
+    >
+      <view>content content content content content content content content...</view>
+    </mpdialog>
+  </view>
+</view>

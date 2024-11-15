@@ -1,0 +1,149 @@
+<view class="page">
+  <mptoptips msg="{{error}}" type="error" show="{{error}}"></mptoptips>
+  <mpformpage title="{{i18n.t('form_1')}}" subtitle="{{i18n.t('form_2')}}">
+    <mpform id="form" rules="{{rules}}" models="{{formData}}">
+      <mpcells title="{{i18n.t('form_3')}}">
+        <mpcheckboxgroup prop="radio" multi="{{false}}" bindchange="radioChange">
+          <mpcheckbox
+            ty:for="{{radioItems}}"
+            ty:key="value"
+            label="{{item.name}}"
+            value="{{item.value}}"
+            checked="{{item.checked}}"
+          ></mpcheckbox>
+        </mpcheckboxgroup>
+      </mpcells>
+      <mpcells title="{{i18n.t('form_4')}}">
+        <mpcheckboxgroup prop="checkbox" multi="{{true}}" bindchange="checkboxChange">
+          <mpcheckbox
+            ty:for="{{checkboxItems}}"
+            ty:key="value"
+            label="{{item.name}}"
+            value="{{item.value}}"
+            checked="{{item.checked}}"
+          ></mpcheckbox>
+        </mpcheckboxgroup>
+      </mpcells>
+      <mpcells title="{{i18n.t('form_5')}}" footer="{{i18n.t('form_6')}}">
+        <mpcell prop="name" title="name" ext-class="">
+          <input
+            bindinput="formInputChange"
+            data-field="name"
+            class="plus-input"
+            placeholder="Please enter name..."
+          />
+        </mpcell>
+        <mpcell prop="qq" title="qq" ext-class="">
+          <input
+            bindinput="formInputChange"
+            data-field="qq"
+            class="plus-input"
+            placeholder="Please enter qq..."
+          />
+        </mpcell>
+        <mpcell prop="mobile" title="Phone number" ext-class=" plus-cell_vcode">
+          <input
+            bindinput="formInputChange"
+            data-field="mobile"
+            class="plus-input"
+            placeholder="Please enter phone number..."
+          />
+          <button slot="footer" type="default" class="plus-vcode-btn">verification code</button>
+        </mpcell>
+        <mpcell prop="date" title="Date" ext-class="">
+          <picker
+            data-field="date"
+            mode="date"
+            value="{{date}}"
+            start="2015-09-01"
+            end="2017-09-01"
+            bindchange="bindDateChange"
+          >
+            <view class="plus-input">{{date}}</view>
+          </picker>
+        </mpcell>
+        <mpcell prop="vcode" title="verification code" ext-class=" plus-cell_vcode">
+          <input
+            bindinput="formInputChange"
+            data-field="vcode"
+            class="plus-input"
+            placeholder="please enter verification code..."
+          />
+          <image
+            slot="footer"
+            class="plus-vcode-img"
+            src="/assets/images/vcode.jpg"
+            style="width: 108px; height: 30px"
+          ></image>
+        </mpcell>
+      </mpcells>
+      <mpcells title="Error reporting form item after submission">
+        <mpcell show-error prop="idcard" title="card number" ext-class="">
+          <input
+            bindinput="formInputChange"
+            data-field="idcard"
+            class="plus-input"
+            placeholder="Please enter the card number..."
+          />
+        </mpcell>
+      </mpcells>
+      <mpcells title="switch">
+        <mpcell title="title" ext-class="">
+          <switch slot="footer" checked />
+        </mpcell>
+      </mpcells>
+      <mpcells title="text box">
+        <mpcell title="title" ext-class="">
+          <input class="plus-input" placeholder="Enter..." />
+        </mpcell>
+      </mpcells>
+      <mpcells title="text field">
+        <mpcell has-header="{{false}}" has-footer="{{false}}" title="" ext-class="">
+          <textarea class="plus-textarea" placeholder="Enter..." style="height: 3.3em" />
+          <view class="plus-textarea-counter">0/200</view>
+        </mpcell>
+      </mpcells>
+      <mpcells title="select">
+        <mpcell ext-class="plus-cell_select plus-cell_select-before">
+          <view slot="title" style="width: 105px">
+            <picker
+              aria-role="listbox"
+              bindchange="bindCountryCodeChange"
+              value="{{countryCodeIndex}}"
+              range="{{countryCodes}}"
+            >
+              <view>{{countryCodes[countryCodeIndex]}}</view>
+            </picker>
+          </view>
+          <input class="plus-input" placeholder="please enter the number..." />
+        </mpcell>
+      </mpcells>
+      <mpcells title="select">
+        <mpcell has-header="{{false}}" ext-class="plus-cell_select">
+          <picker bindchange="bindAccountChange" value="{{accountIndex}}" range="{{accounts}}">
+            <view>{{accounts[accountIndex]}}</view>
+          </picker>
+        </mpcell>
+        <mpcell ext-class="plus-cell_select plus-cell_select-after">
+          <view slot="title" class="plus-label">country</view>
+          <picker bindchange="bindCountryChange" value="{{countryIndex}}" range="{{countries}}">
+            <view>{{countries[countryIndex]}}</view>
+          </picker>
+        </mpcell>
+      </mpcells>
+    </mpform>
+    <checkbox-group slot="tips" bindchange="bindAgreeChange">
+      <label class="plus-agree">
+        <checkbox />
+        <text class="plus-agree__checkbox"></text>
+        <view class="plus-agree__text"
+          >read and agree
+          <navigator>《Related Terms》</navigator>
+        </view>
+      </label>
+    </checkbox-group>
+    <view slot="button">
+      <button class="plus-btn" type="primary" bindtap="submitForm">confirm</button>
+    </view>
+  </mpformpage>
+</view>

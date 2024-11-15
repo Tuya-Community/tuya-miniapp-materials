@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "手势库",
+  "backgroundColor": "#f2f4f6",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": false,
+  "disableScroll": true
+}

@@ -1,0 +1,57 @@
+<view class="page" data-plus-theme="{{theme}}">
+  <view class="page__hd">
+    <view class="page__title">Flex</view>
+    <view class="page__desc">Flex layout</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="plus-flex">
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+    </view>
+    <view class="plus-flex">
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+    </view>
+    <view class="plus-flex">
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+    </view>
+    <view class="plus-flex">
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+    </view>
+    <view class="plus-flex">
+      <view>
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view>
+        <view class="placeholder">tuya</view>
+      </view>
+    </view>
+  </view>
+</view>

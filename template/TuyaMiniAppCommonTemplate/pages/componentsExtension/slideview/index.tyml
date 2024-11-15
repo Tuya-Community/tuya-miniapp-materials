@@ -1,0 +1,19 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">Slideview</view>
+    <view class="page__desc">{{i18n.t('slideview_1')}}</view>
+  </view>
+  <view class="page__bd">
+    <view class="plus-cells">
+      <mpslideview show="{{isShow}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+        <mpcell value="{{i18n.t('slideview_2')}}" footer="{{i18n.t('slideview_3')}}"></mpcell>
+      </mpslideview>
+      <view style="height: 16px; background: #f2f2f2"></view>
+      <mpslideview show="{{isShow}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+        <mpcell value="{{i18n.t('slideview_2')}}" footer="{{i18n.t('slideview_3')}}"></mpcell>
+      </mpslideview>
+    </view>
+  </view>
+
+  <button bindtap="toggle" type="primary">切换</button>
+</view>

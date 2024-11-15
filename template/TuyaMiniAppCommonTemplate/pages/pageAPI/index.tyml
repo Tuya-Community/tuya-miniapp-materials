@@ -1,0 +1,71 @@
+<block ty:if="{{isSetTabBarPage}}">
+  <view class="container">
+    <view class="page-head"> </view>
+    <view class="page-body">
+      <view class="btn-area">
+        <button type="primary" bindtap="setTabBarBadge">
+          {{ !hasSetTabBarBadge ? i18n.t('api_14') : i18n.t('api_15') }}
+        </button>
+        <button type="primary" bindtap="showTabBarRedDot">
+          {{ !hasShownTabBarRedDot ? i18n.t('api_16') : i18n.t('api_17')}}
+        </button>
+        <button type="primary" bindtap="customStyle">
+          {{ !hasCustomedStyle ? i18n.t('api_18') : i18n.t('api_19')}}
+        </button>
+        <button type="primary" bindtap="customItem">
+          {{ !hasCustomedItem ? i18n.t('api_20') : i18n.t('api_21') }}
+        </button>
+        <button type="primary" bindtap="hideTabBar">
+          {{ !hasHiddenTabBar ? i18n.t('api_22') : i18n.t('api_23') }}
+        </button>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button type="primary" bindtap="navigateBack">{{i18n.t('api_24')}}</button>
+    </view>
+  </view>
+</block>
+<view class="index" ty:else>
+  <view class="index-hd">
+    <image class="index-logo" src="/assets/images/Grouplogo.png"></image>
+    <view class="index-desc"
+      >{{i18n.t('api_25')}}
+      <navigator url="pages/doc-web-view/doc-web-view" class="plus-agree__link"
+        >{{i18n.t('api_26')}}</navigator
+      >
+    </view>
+  </view>
+  <view class="index-bd">
+    <view class="kind-list">
+      <block ty:for="{{list}}" ty:key="{{item.id}}">
+        <view class="kind-list-item">
+          <view data-id="{{item.id}}" class="kind-list-item-hd" bindtap="kindToggle">
+            <view class="kind-list-text">{{item.name}}</view>
+            <image
+              class="kind-list-img"
+              src="/assets/images/api/resources/kind/{{item.id}}.png"
+            ></image>
+          </view>
+          <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
+            <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
+              <block ty:for="{{item.pages}}" ty:for-item="page" ty:key="*item">
+                <navigator
+                  url="/pages/pageAPI/{{page.url}}"
+                  class="navigator"
+                  ty:if="{{page.url !== '@set-tab-bar'}}"
+                >
+                  <view class="navigator-text">{{page.zh}}</view>
+                  <view class="navigator-arrow"></view>
+                </navigator>
+                <view ty:else class="navigator" bindtap="enterSetTabBarPage">
+                  <view class="navigator-text">{{page.zh}}</view>
+                  <view class="navigator-arrow"></view>
+                </view>
+              </block>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

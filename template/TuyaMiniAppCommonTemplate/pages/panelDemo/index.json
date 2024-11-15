@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "面板",
+  "backgroundColor": "#f2f4f6",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 100
+}

@@ -1,0 +1,20 @@
+<view class="page-head">
+  <view class="page-head-title">button</view>
+  <view class="page-head-line"></view>
+</view>
+<view class="button-page">
+  <button loading="true">button</button>
+  <button type="primary" bindtap="handleFirstBtnTap">main operation</button>
+  <button type="primary" loading="true">main operation + loading</button>
+  <button type="primary" loading="true" plain="true">main operation + plain</button>
+  <button type="default" loading="true">default</button>
+  <button type="default" plain="true" loading="true">default + plain</button>
+  <button type="primary" disabled="{{true}}" loading="true">disabled</button>
+  <button type="warn" loading="true">Warning Operation</button>
+  <button type="warn" plain="true" loading="true">Warning Operation + plain</button>
+  <view class="button-sp-area">
+    <button class="mini-btn" type="primary" size="mini">button</button>
+    <button class="mini-btn" type="default" size="mini">button</button>
+    <button class="mini-btn" type="warn" size="mini">button</button>
+  </view>
+</view>

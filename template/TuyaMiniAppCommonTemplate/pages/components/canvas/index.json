@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "canvas",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "picture": "/components/picture/index"
+  }
+}

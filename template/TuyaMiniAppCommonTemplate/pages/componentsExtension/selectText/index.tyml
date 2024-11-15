@@ -1,0 +1,26 @@
+<view class="page" data-plus-theme="{{theme}}" bindtap="handleTap">
+  <view class="page__hd">
+    <view class="page__title">selectText</view>
+    <view class="page__desc">{{i18n.t('selecttext_1')}}</view>
+  </view>
+  <view>
+    <view class="demo-block">
+      <block ty:for="{{arr}}" ty:key="placement">
+        <view class="list-item">
+          <mpselecttext
+            show-copy-btn="{{true}}"
+            placement="{{item.placement}}"
+            value="{{item.value}}"
+            data-id="{{index}}"
+            on-document-tap="{{evt}}"
+          >
+          </mpselecttext>
+        </view>
+      </block>
+      <view>
+        <button type="primary" bindtap="getCopyContent">{{i18n.t('selecttext_2')}}</button>
+        <view style="text-align: center">{{copyContent}}</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,68 @@
+<view class="page-head">
+  <view class="page-head-title">icon</view>
+  <view class="page-head-line"></view>
+</view>
+<view class="icon-box l-r-padding">
+  <icon class="icon-box-img" type="success" size="93"></icon>
+  <view class="icon-box-ctn">
+    <view class="icon-box-title">{{i18n.t('icon_title_success')}}</view>
+    <view class="icon-box-desc">{{i18n.t('icon_text_success')}}</view>
+  </view>
+</view>
+<view class="icon-box l-r-padding">
+  <icon class="icon-box-img" type="warn" size="93" color="#C9C9C9"></icon>
+  <view class="icon-box-ctn">
+    <view class="icon-box-title">{{i18n.t('icon_title_warn')}}</view>
+    <view class="icon-box-desc">{{i18n.t('icon_text_warn')}}</view>
+  </view>
+</view>
+<view class="icon-box l-r-padding">
+  <icon class="icon-box-img" type="warn" size="93"></icon>
+  <view class="icon-box-ctn">
+    <view class="icon-box-title">{{i18n.t('icon_title_error')}}</view>
+    <view class="icon-box-desc">{{i18n.t('icon_text_error')}}</view>
+  </view>
+</view>
+<view class="icon-box l-r-padding">
+  <icon class="icon-box-img" type="waiting" size="93"></icon>
+  <view class="icon-box-ctn">
+    <view class="icon-box-title">{{i18n.t('icon_title_wait')}}</view>
+    <view class="icon-box-desc">{{i18n.t('icon_text_wait')}}</view>
+  </view>
+</view>
+<view class="icon-box l-r-padding">
+  <view class="icon-small-wrp">
+    <icon class="icon-small" type="success_no_circle" size="23"></icon>
+  </view>
+  <view class="icon-box-ctn">
+    <view class="icon-box-title">{{i18n.t('icon_title_select')}}</view>
+    <view class="icon-box-desc">{{i18n.t('icon_text_select')}}</view>
+  </view>
+</view>
+<view class="icon-box l-r-padding">
+  <view class="icon-small-wrp">
+    <icon class="icon-small" type="warn" size="23"></icon>
+  </view>
+  <view class="icon-box-ctn">
+    <view class="icon-box-title">{{i18n.t('icon_title_errmsg')}}</view>
+    <view class="icon-box-desc">{{i18n.t('icon_text_errmsg')}}</view>
+  </view>
+</view>
+<view class="icon-box l-r-padding">
+  <view class="icon-small-wrp">
+    <icon class="icon-small" type="success" size="23"></icon>
+  </view>
+  <view class="icon-box-ctn l-r-padding">
+    <view class="icon-box-title">{{i18n.t('icon_title_single_select')}}</view>
+    <view class="icon-box-desc">{{i18n.t('icon_text_single_select')}}</view>
+  </view>
+</view>
+<view class="icon-box l-r-padding">
+  <view class="icon-small-wrp">
+    <icon class="icon-small" type="info_circle" size="23"></icon>
+  </view>
+  <view class="icon-box-ctn">
+    <view class="icon-box-title">{{i18n.t('icon_title_hint')}}</view>
+    <view class="icon-box-desc">{{i18n.t('icon_text_hint')}}</view>
+  </view>
+</view>

@@ -1,0 +1,72 @@
+<view class="page-head">
+  <view class="page-head-title">movable</view>
+  <view class="page-head-line"></view>
+</view>
+
+<view class="container">
+  <view class="page-section">
+    <view class="page-section-title l-r-padding">{{i18n.t('movable_move')}}</view>
+    <view class="area-wrap">
+      <movable-area class="area">
+        <movable-view class="block" x="{{x}}" y="{{y}}" direction="all"> text </movable-view>
+      </movable-area>
+    </view>
+    <view class="btn-wrap">
+      <view class="btn-line">
+        <button type="primary" bindtap="moveFn" class="btn">{{i18n.t('movable_30')}}</button>
+      </view>
+      <view class="btn-line">
+        <button type="primary" bindtap="moveStep" class="btn sec-btn">
+          {{i18n.t('movable_moveto')}}({{x + 10}}px, {{y + 10}}px)
+        </button>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title l-r-padding">{{i18n.t('movable_hor')}}</view>
+    <view class="area-wrap">
+      <movable-area class="area">
+        <movable-view class="block" direction="horizontal">text</movable-view>
+      </movable-area>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title l-r-padding">{{i18n.t('movable_ver')}}</view>
+    <view class="area-wrap">
+      <movable-area class="area">
+        <movable-view class="block" direction="vertical">text</movable-view>
+      </movable-area>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title l-r-padding">{{i18n.t('movable_beyond')}}</view>
+    <view class="area-wrap">
+      <movable-area class="area">
+        <movable-view class="block" direction="all" out-of-bounds="true">text</movable-view>
+      </movable-area>
+    </view>
+  </view>
+
+  <!-- <view class="page-section">
+    <view class="page-section-title">带有惯性</view>
+    <view class="area-wrap">
+      <movable-area class="area">
+        <movable-view class="block" direction="all" inertia="true">text</movable-view>
+      </movable-area>
+    </view>
+  </view> -->
+
+  <view class="page-section">
+    <view class="page-section-title l-r-padding">{{i18n.t('movable_scale')}}</view>
+    <view class="area-wrap">
+      <movable-area class="area">
+        <movable-view class="block" direction="all" scale="{{true}}" scale-value="{{2}}"
+          >text</movable-view
+        >
+      </movable-area>
+    </view>
+  </view>
+</view>

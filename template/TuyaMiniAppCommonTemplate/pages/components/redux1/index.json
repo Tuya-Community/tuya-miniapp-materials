@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "redux",
+  "backgroundColor": "#f2f4f6",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "xlComponent": "/components/reduxComponent/index"
+  }
+}

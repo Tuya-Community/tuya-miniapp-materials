@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">navigationBarLoading</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="btn-area">
+      <button type="primary" bindtap="showNavigationBarLoading">{{i18n.t('api_nav_1')}}</button>
+      <button type="primary" bindtap="hideNavigationBarLoading">{{i18n.t('api_nav_2')}}</button>
+      <button type="primary" bindtap="setNavigationBarTitle">{{i18n.t('api_nav_3')}}</button>
+      <button type="primary" bindtap="setNavigationBarColor">{{i18n.t('api_nav_4')}}</button>
+    </view>
+  </view>
+</view>

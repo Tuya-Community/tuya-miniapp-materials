@@ -1,0 +1,64 @@
+<view class="plus-form">
+  <view class="plus-form__text-area">
+    <view class="plus-form__title">{{i18n.t('formpage_1')}}</view>
+    <view class="plus-form__desc">{{i18n.t('formpage_2')}}</view>
+  </view>
+  <view class="plus-form__control-area">
+    <view class="plus-cells__group plus-cells__group_form">
+      <view class="plus-cells plus-cells_form">
+        <view class="plus-cell">
+          <view class="plus-cell__hd">
+            <label class="plus-label">Name</label>
+          </view>
+          <view class="plus-cell__bd">
+            <input
+              class="plus-input"
+              type="number"
+              pattern="[0-9]*"
+              placeholder="Please enter your name"
+            />
+          </view>
+        </view>
+        <view class="plus-cell">
+          <view class="plus-cell__hd">
+            <label class="plus-label">Phone number</label>
+          </view>
+          <view class="plus-cell__bd">
+            <input
+              class="plus-input"
+              type="number"
+              pattern="[0-9]*"
+              placeholder="Please enter phone number"
+            />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="plus-form__tips-area">
+    <label for="tyuiAgree" class="plus-agree">
+      <checkbox></checkbox>
+      <text class="plus-agree__text"
+        >read and agree
+        <navigator href="javascript:void(0);">《Related Terms》</navigator>
+      </text>
+    </label>
+  </view>
+  <view class="plus-form__opr-area">
+    <button type="primary" class="m-l-r-20">Confirm</button>
+  </view>
+  <view class="plus-form__tips-area">
+    <view class="plus-form__tips">
+      Click next to indicate
+      <navigator href="javascript:;">Agree to the user agreement</navigator>
+    </view>
+  </view>
+  <view class="plus-form__extra-area">
+    <view class="plus-footer">
+      <view class="plus-footer__links">
+        <navigator href="javascript:void(0);" class="plus-footer__link">bottom link text</navigator>
+      </view>
+      <view class="plus-footer__text">Copyright © 2020-2022 mothra.io</view>
+    </view>
+  </view>
+</view>

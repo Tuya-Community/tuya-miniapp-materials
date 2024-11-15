@@ -1,0 +1,14 @@
+<view class="page" data-plus-theme="{{theme}}">
+  <view class="page__hd">
+    <view class="page__title">Msg</view>
+    <view class="page__desc">{{i18n.t('msg_1')}}</view>
+  </view>
+  <view class="page__bd">
+    <view class="plus-btn-area l-r-padding">
+      <button type="primary" class="base-btn" bindtap="openSuccess">{{i18n.t('msg_2')}}</button>
+      <button type="primary" class="base-btn" bindtap="openFail">{{i18n.t('msg_3')}}</button>
+      <button type="primary" class="base-btn" bindtap="openText">{{i18n.t('msg_4')}}</button>
+      <button type="primary" class="base-btn" bindtap="openTextPrimary">{{i18n.t('msg_4')}}</button>
+    </view>
+  </view>
+</view>

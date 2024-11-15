@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">scanCode</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="plus-cells__title">{{i18n.t('scanCode_1')}}</view>
+    <view class="plus-cells plus-cells_after-title">
+      <view class="plus-cell">
+        <view class="plus-cell__bd">{{result}}</view>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button type="primary" bind:tap="scanCode">{{i18n.t('scanCode_2')}}</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "手势-冒泡处理",
+  "backgroundColor": "#f2f4f6",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "usingComponents": {
+    "gesture": "@tuya-miniapp/miniapp-gesture/gesture/index"
+  }
+}

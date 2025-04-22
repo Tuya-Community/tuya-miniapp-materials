@@ -1,0 +1,12 @@
+{
+  "projectname": "miniprogram",
+  "i18n": true,
+  "description": "小游戏模板",
+  "baseversion": "2.26.2",
+  "dependencies": {
+    "BaseKit": "3.0.1",
+    "MiniKit": "3.0.0",
+    "BizKit": "3.0.1"
+  },
+  "compileType": "miniprogram"
+}

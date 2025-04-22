@@ -1,0 +1,28 @@
+{
+  "en": {
+    "game.title": "Jump Jump",
+    "start_btn": "Start Game",
+    "game.score": "Score: ",
+    "game.started": "Game Started",
+    "restart_btn": "Restart",
+    "loading": "Please wait...",
+    "upload.points.prompt": "*Points will be uploaded after clicking 'Upload Points', \n and points can only be uploaded once per day.",
+    "upload.points.success": "Upload points success",
+    "upload.points.fail": "Upload Failed: ",
+    "total.points": "Total points earned",
+    "count.down": "Countdown:"
+  },
+  "zh": {
+    "game.title": "跳一跳",
+    "start_btn": "开始游戏",
+    "game.score": "得分: ",
+    "restart_btn": "重新开始",
+    "game.started": "游戏开始",
+    "loading": "上传中...",
+    "upload.points.prompt": "*点击\"使用\"后将上传积分，单日只能上传一次积分",
+    "upload.points.success": "上传积分成功",
+    "upload.points.fail": "上传失败: ",
+    "total.points": "共获得积分",
+    "count.down": "倒计时:"
+  }
+}

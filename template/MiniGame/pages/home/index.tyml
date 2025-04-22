@@ -1,0 +1,3 @@
+<view class="container">
+   <web-view id="webviewContainer" ty:if="{{src}}" src="{{src}}" bind:message="onMessageFromWebView" bind:load="onWebViewLoad" bind:error="onWebViewError" progressBar="false" />
+</view>

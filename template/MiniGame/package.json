@@ -1,0 +1,20 @@
+{
+  "name": "raytpl-mini-game",
+  "version": "0.0.0",
+  "private": true,
+  "keywords": [],
+  "author": "Tuya.inc",
+  "license": "ISC",
+  "scripts": {
+    "install-cocos": "cd cocos-project && yarn",
+    "lint": "eslint --ext .js,.ts --fix",
+    "format": "prettier --write pages i18n"
+  },
+  "dependencies": {
+    "@ray-js/mini-game-sdk": "^0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2"
+  }
+}

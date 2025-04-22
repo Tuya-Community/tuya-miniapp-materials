@@ -1,0 +1,11 @@
+{
+  "name": "cocos-project",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ray-js/mini-game-sdk": "^0.0.3"
+  }
+}

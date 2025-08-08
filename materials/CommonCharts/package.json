@@ -1,0 +1,24 @@
+{
+  "name": "@tuya-miniapp/common-charts",
+  "version": "0.3.6",
+  "main": "lib/core/index.js",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--no-experimental-fetch node build/dev.mjs",
+    "build": "echo 'ok'"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "eval5": "^1.4.8",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "echarts": "^5.5.1",
+    "gulp": "^4.0.2"
+  },
+  "maintainers": [
+    {
+      "name": "tuyafe",
+      "email": "tuyafe@tuya.com"
+    }
+  ]
+}

@@ -1,45 +1,21 @@
 import { GlobalConfig } from '@ray-js/types';
 
-export const wechat = {
-  window: {
-    backgroundColor: '#f2f4f6',
-    navigationBarTitleText: '微信小程序示例',
-    navigationBarBackgroundColor: '#f2f4f6',
-    navigationBarTextStyle: 'black',
-  },
-};
-
+// 导出 tuya 平台特定配置，包含主题配置
 export const tuya = {
+  themeLocation: 'theme.json',
   window: {
-    backgroundColor: '#f2f4f6',
+    backgroundColor: '@bgColor',
+    backgroundTextStyle: '@bgTxtStyle',
+    backgroundColorTop: '@bgColorTop',
+    backgroundColorBottom: '@bgColorBottom',
     navigationBarTitleText: '涂鸦小程序示例',
-    navigationBarBackgroundColor: '#f2f4f6',
-    navigationBarTextStyle: 'black',
+    navigationBarBackgroundColor: '@navBgColor',
+    navigationBarTextStyle: '@navTxtStyle',
   },
 };
 
-export const web = {
-  window: {
-    backgroundColor: '#f2f4f6',
-    navigationBarTitleText: 'Ray Web App',
-  },
+const globalConfig: GlobalConfig = { 
+  basename: '',
 };
-
-export const native = {
-  pages: ['/pages/home/index', '/pages/detail/index'],
-  isWatch: true,
-  enableMultipleClassName: true,
-  enableMergeStyle: true,
-  window: {
-    backgroundTextStyle: 'dark',
-    navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: 'WeChat',
-    navigationBarTextStyle: 'black',
-    backgroundColor: '#f8f8f8',
-    backgroundColorTop: 'red',
-  },
-};
-
-const globalConfig: GlobalConfig = { basename: '' };
 
 export default globalConfig;

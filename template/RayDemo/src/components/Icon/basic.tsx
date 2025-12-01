@@ -1,6 +1,6 @@
 import React from "react";
-import { Icon, View } from "@ray-js/ray";
-
+import { View } from "@ray-js/ray";
+import { Icon } from "@ray-js/icons"
 export default function () {
 	return (
 		<React.Fragment>

@@ -3,7 +3,10 @@
   "compilerOptions": {
     "target": "ES2015",
     "module": "CommonJS",
-    "lib": ["ESNext", "DOM"],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
     "declaration": true,
     "declarationMap": false,
     "emitDeclarationOnly": false,
@@ -15,12 +18,28 @@
     "noEmitOnError": false,
     "jsx": "react",
     "paths": {
-      "ray": ["./node_module/@ray-js/ray"],
-      "@/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"]
+      "ray": [
+        "./node_module/@ray-js/ray"
+      ],
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ]
     },
-    "types": []
+    "types": [],
+    "typeRoots": [
+      "./typings"
+    ]
   },
-  "include": ["src/**/*.*", "typings"],
-  "exclude": ["node_modules", "dist", "public"]
+  "include": [
+    "src/**/*.*",
+    "typings"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "public"
+  ]
 }

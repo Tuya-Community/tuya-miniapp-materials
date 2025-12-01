@@ -1,7 +1,7 @@
 import { Routes, TabBar } from "@ray-js/types";
 
 import { BASIC_ROUTES } from "./basic/index.config";
-import { API_ROUTES } from "./api/index.config";
+import { API_ROUTES } from "./api/routes.config";
 
 export const routes: Routes = [
 	{
@@ -25,9 +25,9 @@ export const routes: Routes = [
 ];
 
 export const tabBar: TabBar = {
-	borderStyle: "white",
-	textColor: "#000",
-	selectedColor: "#fa5500",
+	textColor: "@tabFontColor",
+	selectedColor: "@tabSelectedColor",
+	backgroundColor: "@tabBgColor",
 	list: [
 		{
 			id: "home",

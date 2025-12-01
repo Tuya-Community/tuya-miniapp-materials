@@ -1,19 +1,6 @@
-export const web = {
+export default {
   navigationBarTitleText: '个人中心',
-  backgroundColor: '#f2f4f6',
-};
-
-export const tuya = {
-  navigationBarTitleText: '个人中心',
-  backgroundColor: '#f2f4f6',
-};
-
-export const wechat = {
-  navigationBarTitleText: '个人中心',
-  backgroundColor: '#f2f4f6',
-};
-
-export const native = {
-  navigationBarTitleText: '个人中心',
-  backgroundColor: '#f2f4f6',
+  backgroundColor: '@pageBgColor',
+  navigationBarBackgroundColor: '@pageNavBgColor',
+  navigationBarTextStyle: '@navTxtStyle',
 };

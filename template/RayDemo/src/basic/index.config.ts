@@ -6,42 +6,46 @@ export const COMPONENTS = [
 	{
 		title: "基础组件",
 		list: [
-			{ name: "View", path: "/basic/view" },
-			{ name: "Image", path: "/basic/image" },
-			{ name: "Text", path: "/basic/text" },
-			{ name: "Icon", path: "/basic/icon" },
+			{ name: "View", path: "/view" },
+			{ name: "Image", path: "/image" },
+			{ name: "Text", path: "/text" },
+			{ name: "Icon", path: "/icon" },
 		],
 	},
 	{
 		title: "视图容器",
 		list: [
-			{ name: "Swiper", path: "/basic/swiper" },
-			{ name: "ScrollView", path: "/basic/scroll-view" },
-			{ name: "PageContainer", path: "/basic/page-container" },
+			{ name: "Swiper", path: "/swiper" },
+			{ name: "ScrollView", path: "/scroll-view" },
+			{ name: "PageContainer", path: "/page-container" },
 		],
 	},
 	{
 		title: "表单组件",
 		list: [
-			{ name: "Input", path: "/basic/input" },
-			{ name: "Button", path: "/basic/button" },
-			{ name: "Textarea", path: "/basic/textarea" },
-			{ name: "Checkbox", path: "/basic/checkbox" },
-			{ name: "Radio", path: "/basic/radio" },
-			{ name: "Switch", path: "/basic/switch" },
-			{ name: "Picker", path: "/basic/picker" },
-			{ name: "PickerView", path: "/basic/picker-view" },
-			{ name: "Slider", path: "/basic/slider" },
+			{ name: "Input", path: "/input" },
+			{ name: "Button", path: "/button" },
+			{ name: "Textarea", path: "/textarea" },
+			{ name: "Checkbox", path: "/checkbox" },
+			{ name: "Radio", path: "/radio" },
+			{ name: "Switch", path: "/switch" },
+			{ name: "Picker", path: "/picker" },
+			{ name: "PickerView", path: "/picker-view" },
+			{ name: "Slider", path: "/slider" },
 		],
 	},
 	{
 		title: "动画库",
-		list: [{ name: "React-Motion", path: "/basic/react-motion" }],
+		list: [{ name: "React-Motion", path: "/react-motion" }],
 	},
 ];
 
+// 用于路由配置的routes
 export const BASIC_ROUTES = COMPONENTS.reduce((acc, comps) => {
 	return acc.concat(comps.list);
 }, []).map((r) => {
-	return { route: r.path, path: r.path + "/index" };
+	return { 
+		route: r.path,
+		path: "/basic" + r.path + "/index"
+	};
 });

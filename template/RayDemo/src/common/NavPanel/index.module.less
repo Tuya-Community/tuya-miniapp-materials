@@ -1,4 +1,5 @@
 @import '../../variables.less';
+
 .wrapper {
   padding: 24rpx;
   flex-direction: column;
@@ -12,22 +13,24 @@
 }
 
 .listWrapper {
-  background-color: #fff;
+  background-color: var(--card-bg-color, #fff);
   padding: 12rpx;
   margin-top: 20rpx;
   flex-direction: column;
+  border-radius: 8rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.08);
 }
 
 .item {
-  border-top: 1rpx solid #eee;
+  border-top: 1rpx solid var(--border-color, #eee);
   display: flex;
   flex-direction: row;
   height: 64rpx;
-  // justify-content: center;
   align-items: center;
   padding: 0 24rpx;
   position: relative;
 }
+
 .itemArrow {
   display: block;
   position: absolute;
@@ -36,16 +39,17 @@
   width: 20rpx;
   height: 20rpx;
   transform: rotate(45deg) translateY(-10rpx);
-  border-top: 1rpx solid #ddd;
-  border-right: 1rpx solid #ddd;
+  border-top: 1rpx solid var(--arrow-color, #ddd);
+  border-right: 1rpx solid var(--arrow-color, #ddd);
   content: ' ';
 }
+
 .first-child {
   border-top-width: 0;
 }
 
 .itemHover {
-  background-color: rgba(250, 250, 250, 1);
+  background-color: var(--hover-bg-color, rgba(250, 250, 250, 1));
 }
 
 .itemName {

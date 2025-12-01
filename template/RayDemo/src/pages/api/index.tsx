@@ -2,6 +2,7 @@ import { location } from 'ray';
 import React, { Fragment } from 'react';
 
 import { COMPONENTS } from '@/api/index.config';
+import { API_ACTIONS } from '@/api/actions';
 
 import Header from '@/common/Header';
 import NavPanel from '@/common/NavPanel';
@@ -15,12 +16,19 @@ class My extends React.Component {
     console.info('my onHide');
   }
 
+  handleAction = (actionName: string) => {
+    const action = API_ACTIONS[actionName];
+    if (action) {
+      action();
+    }
+  };
+
   render() {
     return (
       <Fragment>
         <Header title='API' description='展示跨端 API 接口能力' />
         {COMPONENTS.map(({ title, list }) => {
-          return <NavPanel key={title} title={title} list={list} />;
+          return <NavPanel key={title} title={title} list={list} onAction={this.handleAction} />;
         })}
       </Fragment>
     );

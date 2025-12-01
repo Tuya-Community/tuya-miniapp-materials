@@ -3,7 +3,6 @@ Tuya Miniapp Materials
 
 <!-- txp-asset-qrcode-start -->
 <table>
-
 <tr>
   <td id="TuyaMiniAppCommonTemplate">2024/11</td>
   <td><a href="https://github.com/Tuya-Community/tuya-miniapp-materials?path=template/TuyaMiniAppCommonTemplate">TuyaMiniAppCommonTemplate</a></td>
@@ -38,7 +37,7 @@ Tuya Miniapp Materials
 </tr>
 
 <tr>
-  <td id="RayDemo">2025/11</td>
+  <td id="RayDemo">2025/12</td>
   <td><a href="https://github.com/Tuya-Community/tuya-miniapp-materials?path=template/RayDemo">RayDemo</a></td>
   <td>
   <details>

@@ -1,0 +1,9 @@
+<view class="container">
+  <smart-nav-bar
+    left-arrow
+    title="{{I18n.t('nav_home')}}"
+    bind:click-left="onBack"
+  />
+  <smart-button bind:click="onShowDialog">{{I18n.t('btn_show_dialog')}}</smart-button>
+  <smart-dialog id="custom" />
+</view>

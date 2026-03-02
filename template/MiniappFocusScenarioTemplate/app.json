@@ -1,0 +1,26 @@
+{
+  "entryPagePath": "pages/home/index",
+  "themeLocation": "theme.json",
+  "pages": [
+    "pages/home/index",
+    "pages/example1/index",
+    "pages/example2/index",
+    "pages/example3/index",
+    "pages/example4/index",
+    "pages/example5/index",
+    "pages/example6/index",
+    "pages/example7/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "miniprogram",
+    "backgroundTextStyle": "@bgTxtStyle",
+    "backgroundColorTop": "@bgColorTop",
+    "backgroundColorBottom": "@bgColorBottom",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50,
+    "pageOrientation": "portrait",
+    "backgroundColor": "--app-B1",
+    "navigationBarBackgroundColor": "--app-B2",
+    "navigationBarTextStyle": "--app-B2-N1"
+  }
+}

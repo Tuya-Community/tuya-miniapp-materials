@@ -1,0 +1,12 @@
+{
+  "projectname": "原生小程序聚焦场景模版",
+  "I18n": false,
+  "description": "聚焦场景规范模版",
+  "baseversion": "2.30.1",
+  "dependencies": {
+    "BaseKit": "3.0.6",
+    "MiniKit": "3.0.7",
+    "BizKit": "4.2.0"
+  },
+  "compileType": "miniprogram"
+}

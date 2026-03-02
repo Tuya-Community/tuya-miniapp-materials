@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "smart-nav-bar": "@tuya-miniapp/smart-ui/lib/nav-bar/index",
+    "smart-tabs": "@tuya-miniapp/smart-ui/lib/tabs/index",
+    "smart-tab": "@tuya-miniapp/smart-ui/lib/tab/index",
+    "smart-field": "@tuya-miniapp/smart-ui/lib/field/index",
+    "smart-button": "@tuya-miniapp/smart-ui/lib/button/index"
+  }
+}

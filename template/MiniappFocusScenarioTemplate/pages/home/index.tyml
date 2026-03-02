@@ -1,0 +1,9 @@
+<view class="container">
+  <button bindtap="jump" data-url="/pages/example1/index">1. {{I18n.t("btn_form_single_auto")}}</button>
+  <button bindtap="jump" data-url="/pages/example2/index">2. {{I18n.t("btn_form_multi_fixed")}}</button>
+  <button bindtap="jump" data-url="/pages/example3/index">3. {{I18n.t("btn_popup_single_auto")}}</button>
+  <button bindtap="jump" data-url="/pages/example4/index">4. {{I18n.t("btn_popup_multi_fixed")}}</button>
+  <button bindtap="jump" data-url="/pages/example5/index">5. {{I18n.t("btn_popup_focus")}}</button>
+  <button bindtap="jump" data-url="/pages/example6/index">6. {{I18n.t("btn_card_fixed")}}</button>
+  <button bindtap="jump" data-url="/pages/example7/index">7. {{I18n.t("btn_card_scroll")}}</button>
+</view>

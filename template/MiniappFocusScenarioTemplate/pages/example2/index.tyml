@@ -1,0 +1,22 @@
+<view class="container">
+  <smart-nav-bar
+    class="navBar"
+    background="#F8F8F8"
+    title="{{I18n.t('nav_add_message')}}"
+    left-arrow
+    bind:click-left="onBack"
+  />
+  <view class="content">
+    <view class="card" wx:for="{{cardList}}" wx:key="index">
+      <view class="title">{{I18n.t('label_name')}}</view>
+      <input
+        placeholder="{{I18n.t('placeholder_input')}}"
+        value="{{inputValue}}"
+        class="input"
+      />
+    </view>
+  </view>
+  <view class="buttonContainer">
+    <smart-button type="primary" custom-class="button">{{I18n.t('btn_save')}}</smart-button>
+  </view>
+</view>

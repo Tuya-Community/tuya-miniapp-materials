@@ -1,0 +1,12 @@
+{
+  "name": "miniprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@tuya-miniapp/smart-ui": "^2.11.0"
+  }
+}

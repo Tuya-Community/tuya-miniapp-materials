@@ -1,0 +1,25 @@
+<view class="container" style="height: {{height}};">
+  <smart-nav-bar
+    background="transparent"
+    left-arrow
+    title="{{I18n.t('nav_message_settings')}}"
+    bind:click-left="onBack"
+  />
+  <view class="bodyContent">
+    <smart-tabs type="card" active="{{activeTab}}" class="tabs">
+      <smart-tab name="1" title="{{I18n.t('tab_record')}}" />
+      <smart-tab name="2" title="{{I18n.t('tab_tts')}}" />
+    </smart-tabs>
+    <smart-field
+      input-class="textarea"
+      type="textarea"
+      hidden-label
+      value="{{textareaValue}}"
+      maxlength="600"
+      bindfocus="onTextareaFocus"
+      show-word-limit
+      placeholder="{{I18n.t('placeholder_message')}}"
+    />
+    <smart-button custom-class="button">{{I18n.t('btn_generate')}}</smart-button>
+  </view>
+</view>

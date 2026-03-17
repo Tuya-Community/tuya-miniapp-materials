@@ -57,5 +57,16 @@ Tuya Miniapp Materials
   </details>
   </td>
 </tr>
+
+<tr>
+  <td id="PanelCommon">2026/03</td>
+  <td><a href="https://github.com/Tuya-Community/tuya-miniapp-materials?path=template/PanelCommon">PanelCommon</a></td>
+  <td>
+  <details>
+  <summary>Scan QRCode</summary>
+  <a href="https://developer.tuya.com/material/library_hKiOVClc/component?code=PanelCommon" target="_blank">View Details</a>
+  </details>
+  </td>
+</tr>
 </table>
 <!-- txp-asset-qrcode-end -->

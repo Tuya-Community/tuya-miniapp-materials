@@ -1,28 +1,35 @@
 @import './common.less';
 
 :root {
-  --main-bg-color: rgb(250, 250, 250); /* 浅色背景 */
-  --main-text-color: rgb(54, 54, 54); /* 深色文字 */
-  --main-arrow-color: #999;
-  --main-border-color: rgba(0, 0, 0, 0.05);
+  --main-index-bg-color: #eef4fc;
+  --main-bg-color: #e7effa;
+  --main-text-color: #203550;
+  --main-arrow-color: #607a9e;
+  --main-border-color: rgba(65, 106, 161, 0.18);
   --main-card-bg-color: #ffffff;
-  --main-textarea-color: #000000;
-  --main-title-color: #999999;
+  --main-textarea-color: #203550;
+  --main-title-color: #536a89;
+  --main-accent-color: #245ec7;
+  --main-card-shadow: inset 0 0 0 1px var(--main-border-color), 0 4px 14px rgba(36, 76, 130, 0.08);
+  --main-header-glow: radial-gradient(ellipse at 50% 12%, rgba(91, 155, 248, 0.23), transparent 72%);
 }
 
 :root[theme='dark'] {
-  --main-bg-color: rgba(255, 255, 255, 0.12); /* 深色背景 */
-  --main-text-color: rgb(197, 197, 197); /* 浅色文字 */
-  --main-arrow-color: rgba(255, 255, 255, 0.35);
-  --main-border-color: rgba(255, 255, 255, 0.05);
-  --main-card-bg-color: rgba(255, 255, 255, 0.12);
-  --main-textarea-color: #ffffff;
-  --main-title-color: #999999;
-  background-color: #2f2f2f;
-  color: var(--main-text-color);
+  --main-index-bg-color: #192537;
+  --main-bg-color: #293d57;
+  --main-text-color: #eaf2ff;
+  --main-arrow-color: #91aacb;
+  --main-border-color: rgba(156, 193, 241, 0.19);
+  --main-card-bg-color: #22334a;
+  --main-textarea-color: #eaf2ff;
+  --main-title-color: #b3c4db;
+  --main-accent-color: #79b5ff;
+  --main-card-shadow: inset 0 0 0 1px var(--main-border-color), 0 6px 16px rgba(9, 17, 30, 0.2);
+  --main-header-glow: radial-gradient(ellipse at 50% 18%, rgba(77, 139, 235, 0.24), transparent 70%);
 }
 page {
-  background: var(--plus-BG-0);
+  background-color: var(--plus-BG-0);
+  color: var(--plus-FG-0);
   padding: 16px;
 }
 button {

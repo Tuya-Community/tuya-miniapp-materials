@@ -5,7 +5,6 @@ Page({
     position: 'right',
     round: false,
     overlay: true,
-    customStyle: '',
     overlayStyle: '',
   },
   onLoad: function () {},
@@ -13,22 +12,7 @@ Page({
 
   popup(e) {
     const position = e.currentTarget.dataset.position
-    let customStyle = ''
-    let duration = this.data.duration
-    switch (position) {
-      case 'top':
-      case 'bottom':
-        customStyle = ''
-        break
-      case 'right':
-        break
-    }
-    this.setData({
-      position,
-      show: true,
-      customStyle,
-      duration,
-    })
+    this.setData({ position, show: true })
   },
 
   changeRound() {

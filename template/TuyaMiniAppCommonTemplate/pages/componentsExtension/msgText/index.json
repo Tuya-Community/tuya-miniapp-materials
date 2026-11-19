@@ -1,9 +1,9 @@
 {
-  "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "@navBgColor",
+  "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "msgSuccess",
-  "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "light",
+  "backgroundColor": "@bgColor",
+  "backgroundTextStyle": "@bgTxtStyle",
   "usingComponents": {
     "mpmsg": "@tuya-miniapp/miniapp-components-plus/msg/index"
   }

@@ -52,28 +52,26 @@
     tslib "^2.0.3"
 
 "@babel/runtime@^7.7.7", "@babel/runtime@^7.9.2":
-  version "7.26.0"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.26.0.tgz#8600c2f595f277c60815256418b85356a65173c1"
-  integrity sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==
-  dependencies:
-    regenerator-runtime "^0.14.0"
+  version "7.29.14"
+  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.14.tgz#9ad0cc2addbbc8c46adaec9e90b21bb76d42b483"
+  integrity sha512-Y5tqevQaUAZhhj82BpYMNC1ssvLQTVAfwKdm8iy8qwmhvC2/CpcAu8OC+QEtjM7pMk7knx83u1Qj8gzkicyelw==
 
 "@tuya-miniapp/miniapp-canvas@^2.0.0":
   version "2.0.0"
   resolved "https://registry.npmjs.org/@tuya-miniapp/miniapp-canvas/-/miniapp-canvas-2.0.0.tgz#c49b4715b76ba5fd947a52606bd18f6af82fa7a6"
   integrity sha512-SA/0KdBGGXCspf8QBEozO+Hicp45gHc31uUXyoCGYKA5o89K0NOSJT9i8PRwy8/DM2y4KXW6+fARIsfGCD9cNw==
 
-"@tuya-miniapp/miniapp-components-plus@2.10.4":
-  version "2.10.4"
-  resolved "https://registry.npmjs.org/@tuya-miniapp/miniapp-components-plus/-/miniapp-components-plus-2.10.4.tgz#12201492632de17dcfc703b6cd3c2ae2956150a0"
-  integrity sha512-uz+mDUo4cHYmfa9UdNyQHvEC+5ZwKxvsWconynlddFPp8NXeISx8A+G7QfPtWO194LEoMMcP4Zv5JXthgjWnfw==
+"@tuya-miniapp/miniapp-components-plus@^2.10.5":
+  version "2.11.0"
+  resolved "https://registry.npmjs.org/@tuya-miniapp/miniapp-components-plus/-/miniapp-components-plus-2.11.0.tgz#f70984198d481eee65dae81e821daff9bab8fa0b"
+  integrity sha512-/Od822TWcu+Xb4tuDJFuaF7jUc31R2TXNlLsDtr5hDmQecMbybx7mXOYgHj2njKSNfP89yNGeIylr5fYWkh/8w==
 
-"@tuya-miniapp/miniapp-gesture@^2.0.2":
+"@tuya-miniapp/miniapp-gesture@^2.0.3":
   version "2.0.3"
   resolved "https://registry.npmjs.org/@tuya-miniapp/miniapp-gesture/-/miniapp-gesture-2.0.3.tgz#cdeeaf265bea9779f4370586fe6077d73ad6c889"
   integrity sha512-EQHh/6chOt7TIhxUX09bDcXsHKi31d/yeiMZXUT68t7l5nvS9y3obRjGBJDqIv07sevpUySK9qhXk93IRqOVQg==
 
-"@tuya-miniapp/rjs-adapter@^1.0.3":
+"@tuya-miniapp/rjs-adapter@^1.0.4":
   version "1.0.4"
   resolved "https://registry.npmjs.org/@tuya-miniapp/rjs-adapter/-/rjs-adapter-1.0.4.tgz#7877d6b9480398b9039a88018f549225c54a2404"
   integrity sha512-85zS+P6W5SI/BSonKg0Fpyi2YuXHP34Bn4POgT4409ohNxyNz/Jlu/IoF6K0rcD7iEthd/oov9kgDla7pyO4Fg==
@@ -84,9 +82,9 @@
   integrity sha512-ynRvcq6wvqexJ9brDMS4BnBLzmr0e14d6ZJTEShTBWKymQiHwlAyGu0ZPEFI2Fh1U53F7tN9ufClWM5KvqkKOw==
 
 csstype@^3.0.8:
-  version "3.1.3"
-  resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
-  integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
+  version "3.2.4"
+  resolved "https://registry.npmjs.org/csstype/-/csstype-3.2.4.tgz#e3c565add00793c36f089cc14b70d04d784daa19"
+  integrity sha512-PoKaoPzQapnEoqUSnHx1u6W6ku8CVEgKsnpmmzU3m1nwkidpPBQ8V/Zq2+bWNrsOKoKLwTGdbx6xF7BXP1zLVQ==
 
 deep-diff@^0.3.5:
   version "0.3.8"
@@ -109,9 +107,9 @@ lottie-miniapp@^1.9.1:
   integrity sha512-5N3NePwg7fimyehcojRb2FsYnfh8D/wYkToGWCayMNXMBOAtWfoggFrUwuNwU8OG3LBlGGrTsuxDmhkGXoJ6BQ==
 
 prettier@^3.2.5:
-  version "3.3.3"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
-  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
+  version "3.10.1"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-3.10.1.tgz#00b1c1872f9650ec22093d5bdafdca0fe6760f77"
+  integrity sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==
 
 redux-logger@^3.0.6:
   version "3.0.6"
@@ -132,15 +130,10 @@ redux@^4.1.1:
   dependencies:
     "@babel/runtime" "^7.9.2"
 
-regenerator-runtime@^0.14.0:
-  version "0.14.1"
-  resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"
-  integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
-
 tslib@^2.0.0, tslib@^2.0.3:
-  version "2.8.1"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
-  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
+  version "2.9.1"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.9.1.tgz#8986213ba2f17f38ba39a7c43d0e565a9134ff5f"
+  integrity sha512-a4Ux9VKuIMHsOS7ENbEq6hK2ZGYIT27Rtl0E4eD9KqwxhKiQeMZE/9xb3IdYwWaSOyIBQLExhQgXDTYoiCxnWA==
 
 type-fest@^0.15.1:
   version "0.15.1"

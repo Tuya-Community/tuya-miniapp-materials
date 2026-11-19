@@ -8,7 +8,7 @@
     <mpvtabscontent tabIndex="{{index}}">
       <view class="vtabs-content-item">
         <text>{{index + 1}}： {{item.title}}</text>
-        <image class="vtab-image" src="/assets/images/godzilla.png"></image>
+        <image class="vtab-image" src="{{cdn.url('godzilla.png')}}"></image>
       </view>
     </mpvtabscontent>
   </block>

@@ -1,9 +1,9 @@
 {
-  "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "@navBgColor",
+  "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "topTips",
-  "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "light",
+  "backgroundColor": "@bgColor",
+  "backgroundTextStyle": "@bgTxtStyle",
   "usingComponents": {
     "mptoptips": "@tuya-miniapp/miniapp-components-plus/toptips/index"
   }

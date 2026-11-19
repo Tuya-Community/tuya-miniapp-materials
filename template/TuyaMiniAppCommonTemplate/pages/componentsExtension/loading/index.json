@@ -1,9 +1,9 @@
 {
-  "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "@navBgColor",
+  "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "loading",
-  "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "light",
+  "backgroundColor": "@bgColor",
+  "backgroundTextStyle": "@bgTxtStyle",
   "usingComponents": {
     "mploading": "@tuya-miniapp/miniapp-components-plus/loading/index"
   }

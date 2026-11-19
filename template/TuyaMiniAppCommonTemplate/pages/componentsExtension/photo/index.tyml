@@ -9,6 +9,6 @@
     bindtouchStart="{{anim.touchstart}}"
     bindtouchEnd="{{anim.touchend}}"
   >
-    <image src="/assets/images/avatar.jpg" class="avatar" id="avatar"></image>
+    <image src="{{cdn.url('avatar.jpg')}}" class="avatar" id="avatar"></image>
   </gesture>
 </view>

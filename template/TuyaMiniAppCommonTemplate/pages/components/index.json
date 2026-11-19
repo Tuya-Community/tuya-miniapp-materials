@@ -1,7 +1,7 @@
 {
   "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "组件",
-  "backgroundTextStyle": "dark",
+  "backgroundTextStyle": "@bgTxtStyle",
   "usingComponents": {
     "mptabs": "@tuya-miniapp/miniapp-components-plus/tabs/index"
   }

@@ -72,7 +72,7 @@
           <image
             slot="footer"
             class="plus-vcode-img"
-            src="/assets/images/vcode.jpg"
+            src="{{cdn.url('vcode.jpg')}}"
             style="width: 108px; height: 30px"
           ></image>
         </mpcell>

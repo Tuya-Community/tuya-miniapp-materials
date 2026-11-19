@@ -1,7 +1,7 @@
 .scroll-view {
   height: 400px;
-  background: #fff;
-  border: 1px solid #ccc;
+  background: var(--main-card-bg-color);
+  border: 1px solid var(--main-border-color);
   box-sizing: border-box;
 }
 

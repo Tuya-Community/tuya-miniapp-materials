@@ -23,7 +23,7 @@
         <mpcell value="{{i18n.t('cell_3')}}" footer="{{i18n.t('cell_4')}}">
           <image
             slot="icon"
-            src="/assets/images/component/resources/kind/logo.png"
+            src="{{cdn.url('component/resources/kind/logo.png')}}"
             style="margin-right: 16px; vertical-align: middle; width: 20px; height: 20px"
           ></image>
         </mpcell>
@@ -38,7 +38,7 @@
       >
         <image
           slot="icon"
-          src="/assets/images/component/resources/kind/logo.png"
+          src="{{cdn.url('component/resources/kind/logo.png')}}"
           style="margin-right: 16px; vertical-align: middle; width: 20px; height: 20px"
         ></image>
       </mpcell>
@@ -50,7 +50,7 @@
       >
         <image
           slot="icon"
-          src="/assets/images/component/resources/kind/logo.png"
+          src="{{cdn.url('component/resources/kind/logo.png')}}"
           style="margin-right: 16px; vertical-align: middle; width: 20px; height: 20px"
         ></image>
       </mpcell>

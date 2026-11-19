@@ -1,8 +1,8 @@
 {
-  "navigationBarTextStyle": "black",
+  "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "图表",
-  "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "dark",
+  "backgroundColor": "@bgColor",
+  "backgroundTextStyle": "@bgTxtStyle",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "ff-chart": "/components/ff-chart/index"

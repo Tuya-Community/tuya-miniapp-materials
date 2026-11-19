@@ -49,7 +49,7 @@
   bindleave="onLeave"
   bindafterleave="onAfterLeave"
   bindclickoverlay="onClickOverlay"
-  custom-style="{{customStyle}}"
+  custom-style="background-color: var(--main-card-bg-color);"
   overlay-style="{{overlayStyle}}"
 >
   <view class="detail-page">

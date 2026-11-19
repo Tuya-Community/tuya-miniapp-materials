@@ -1,8 +1,8 @@
 {
-  "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "@navBgColor",
+  "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "polygon",
-  "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "dark",
+  "backgroundColor": "@bgColor",
+  "backgroundTextStyle": "@bgTxtStyle",
   "enablePullDownRefresh": false
 }

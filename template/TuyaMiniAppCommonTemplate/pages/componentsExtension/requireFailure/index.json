@@ -1,8 +1,8 @@
 {
-  "navigationBarTextStyle": "white",
+  "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "手势-requireFailure",
-  "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "dark",
+  "backgroundColor": "@bgColor",
+  "backgroundTextStyle": "@bgTxtStyle",
   "enablePullDownRefresh": false,
   "disableScroll": true,
   "usingComponents": {

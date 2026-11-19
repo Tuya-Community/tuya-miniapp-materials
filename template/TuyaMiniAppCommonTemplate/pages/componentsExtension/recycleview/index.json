@@ -1,8 +1,8 @@
 {
-  "navigationBarTextStyle": "black",
+  "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "Tab2",
-  "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "dark",
+  "backgroundColor": "@bgColor",
+  "backgroundTextStyle": "@bgTxtStyle",
   "enablePullDownRefresh": true,
   "usingComponents": {
     "recycleview": "@tuya-miniapp/miniapp-components-plus/recycleview/index",

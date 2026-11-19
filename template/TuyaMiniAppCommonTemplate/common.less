@@ -47,19 +47,13 @@ image {
 
 .page__desc {
   margin-top: 5px;
-  color: var(--weui-FG-1);
+  color: var(--plus-FG-1);
   text-align: left;
   font-size: 14px;
 }
 
 .weui-cell_example:before {
   left: 52px;
-}
-
-@media (prefers-color-scheme: dark) {
-  page {
-    background-color: #1f1f1f;
-  }
 }
 
 .base-btn {
@@ -88,14 +82,14 @@ image {
   margin: 0 auto;
   width: 75px;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--plus-FG-1);
 }
 
 .page-body-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--main-card-bg-color);
   width: 100%;
   padding: 25px 0 75px 0;
 }
@@ -108,7 +102,7 @@ image {
 .page-body-text {
   font-size: 15px;
   line-height: 26px;
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--plus-FG-1);
 }
 
 .btn-area {
@@ -144,14 +138,14 @@ image {
   margin: 0 auto;
   width: 75px;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--plus-FG-1);
 }
 
 .page-body-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--main-card-bg-color);
   width: 100%;
   padding: 25px 0 75px 0;
 }
@@ -164,7 +158,7 @@ image {
 .page-body-text {
   font-size: 15px;
   line-height: 26px;
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--plus-FG-1);
 }
 
 .btn-area {
@@ -243,30 +237,30 @@ icon {
 
 [data-plus-theme='light'],
 page {
-  --plus-BG-0: #ededed;
-  --plus-BG-1: #f7f7f7;
+  --plus-BG-0: #eef4fc;
+  --plus-BG-1: #f4f8ff;
   --plus-BG-2: #fff;
-  --plus-BG-3: #f7f7f7;
-  --plus-BG-4: #4c4c4c;
+  --plus-BG-3: #f8fbff;
+  --plus-BG-4: #496180;
   --plus-BG-5: #fff;
-  --plus-FG-0: rgba(0, 0, 0, 0.9);
-  --plus-FG-HALF: rgba(0, 0, 0, 0.9);
-  --plus-FG-1: rgba(0, 0, 0, 0.5);
-  --plus-FG-2: rgba(0, 0, 0, 0.3);
-  --plus-FG-3: rgba(0, 0, 0, 0.1);
+  --plus-FG-0: #203550;
+  --plus-FG-HALF: #405977;
+  --plus-FG-1: #536a89;
+  --plus-FG-2: #607a9e;
+  --plus-FG-3: rgba(65, 106, 161, 0.18);
   --plus-RED: #fa5151;
   --plus-ORANGE: #fa9d3b;
   --plus-YELLOW: #ffc300;
   --plus-GREEN: #91d300;
   --plus-LIGHTGREEN: #95ec69;
-  --plus-BRAND: #017aff;
+  --plus-BRAND: #245ec7;
   --plus-BLUE: #10aeff;
   --plus-INDIGO: #1485ee;
   --plus-PURPLE: #6467f0;
   --plus-WHITE: #fff;
-  --plus-LINK: #576b95;
+  --plus-LINK: #245ec7;
   --plus-TEXTGREEN: #06ae56;
-  --plus-FG: #000;
+  --plus-FG: #203550;
   --plus-BG: #fff;
   --plus-TAG-TEXT-ORANGE: #fa9d3b;
   --plus-TAG-BACKGROUND-ORANGE: rgba(250, 157, 59, 0.1);
@@ -280,31 +274,31 @@ page {
 
 @media (prefers-color-scheme: dark) {
   page {
-    --plus-BG-0: #191919;
-    --plus-BG-1: #1f1f1f;
-    --plus-BG-2: #232323;
-    --plus-BG-3: #2f2f2f;
-    --plus-BG-4: #606060;
-    --plus-BG-5: #2c2c2c;
-    --plus-FG-0: hsla(0, 0%, 100%, 0.8);
-    --plus-FG-HALF: hsla(0, 0%, 100%, 0.6);
-    --plus-FG-1: hsla(0, 0%, 100%, 0.5);
-    --plus-FG-2: hsla(0, 0%, 100%, 0.3);
-    --plus-FG-3: hsla(0, 0%, 100%, 0.05);
+    --plus-BG-0: #192537;
+    --plus-BG-1: #1d2b3f;
+    --plus-BG-2: #22334a;
+    --plus-BG-3: #293d57;
+    --plus-BG-4: #435c7a;
+    --plus-BG-5: #263950;
+    --plus-FG-0: #eaf2ff;
+    --plus-FG-HALF: #c8d7eb;
+    --plus-FG-1: #b3c4db;
+    --plus-FG-2: #91aacb;
+    --plus-FG-3: rgba(156, 193, 241, 0.19);
     --plus-RED: #fa5151;
     --plus-ORANGE: #c87d2f;
     --plus-YELLOW: #cc9c00;
     --plus-GREEN: #74a800;
     --plus-LIGHTGREEN: #28b561;
-    --plus-BRAND: #017aff;
+    --plus-BRAND: #79b5ff;
     --plus-BLUE: #10aeff;
     --plus-INDIGO: #1196ff;
     --plus-PURPLE: #8183ff;
     --plus-WHITE: hsla(0, 0%, 100%, 0.8);
-    --plus-LINK: #7d90a9;
+    --plus-LINK: #79b5ff;
     --plus-TEXTGREEN: #259c5c;
     --plus-FG: #fff;
-    --plus-BG: #000;
+    --plus-BG: #192537;
     --plus-TAG-TEXT-ORANGE: rgba(250, 157, 59, 0.6);
     --plus-TAG-BACKGROUND-ORANGE: rgba(250, 157, 59, 0.1);
     --plus-TAG-TEXT-GREEN: rgba(6, 174, 86, 0.6);
@@ -318,12 +312,12 @@ page {
 
 [data-plus-theme='light'],
 page {
-  --plus-BG-COLOR-ACTIVE: #ececec;
+  --plus-BG-COLOR-ACTIVE: #e0ebfb;
 }
 
 @media (prefers-color-scheme: dark) {
   page {
-    --plus-BG-COLOR-ACTIVE: #373737;
+    --plus-BG-COLOR-ACTIVE: #314966;
   }
 }
 

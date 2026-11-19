@@ -1214,7 +1214,7 @@ icon {
 }
 
 page {
-  background-color: #f8f8f8;
+  background-color: var(--plus-BG-0);
   height: 100%;
   font-size: 32px;
   line-height: 1.6;
@@ -1326,7 +1326,7 @@ button:last-child {
 .info {
   position: absolute;
   right: 0;
-  color: #353535;
+  color: var(--main-text-color);
   font-size: 30px;
 }
 
